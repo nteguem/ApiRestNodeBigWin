@@ -9,7 +9,7 @@ const getDataApi = require('./services/api/fixtures/fixtureService.js')
 //app.use(express.static(`${__dirname}/build`))
 
 
-cron.schedule("*/1 * * * *",function(){
+cron.schedule("*/350 * * * *",function(){
 
   getDataApi.writeFixturesDataInFiles();
 })
