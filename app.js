@@ -1,4 +1,5 @@
 const express = require('express')
+const port = process.env.PORT || 3004
 const app = express()
 const cron = require('node-cron');
 const getDataApi = require('./services/api/fixtures/fixtureService.js')
@@ -18,7 +19,7 @@ app.get('/', function (req, res) {
   res.send('Hello Roland!')
 })
 
-app.listen(3004, function () {
+app.listen(port, function () {
   console.log('Listen data football API in 3004!')
 })
 
