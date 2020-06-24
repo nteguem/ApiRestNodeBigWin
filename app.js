@@ -14,6 +14,10 @@ cron.schedule("*/1 * * * *",function(){
   getDataApi.writeFixturesDataInFiles();
 })
 
+app.get('/', function (req, res) {
+  res.send('Hello Roland!')
+})
+
 app.listen(3004, function () {
   console.log('Listen data football API in 3004!')
 })
