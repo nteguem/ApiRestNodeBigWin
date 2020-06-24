@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.364b8679.chunk.css",
+    "main.js": "/static/js/main.c358900f.chunk.js",
+    "main.js.map": "/static/js/main.c358900f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d3cf8413.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d3cf8413.js.map",
+    "static/js/2.13319827.chunk.js": "/static/js/2.13319827.chunk.js",
+    "static/js/2.13319827.chunk.js.map": "/static/js/2.13319827.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a7c95e694a9285ce3feb8056533640d0.js": "/precache-manifest.a7c95e694a9285ce3feb8056533640d0.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.364b8679.chunk.css.map": "/static/css/main.364b8679.chunk.css.map",
+    "static/js/2.13319827.chunk.js.LICENSE.txt": "/static/js/2.13319827.chunk.js.LICENSE.txt",
+    "static/js/main.c358900f.chunk.js.LICENSE.txt": "/static/js/main.c358900f.chunk.js.LICENSE.txt",
+    "static/media/blk-design-system-react.scss": "/static/media/square5.ff004a0e.png",
+    "static/media/loader.gif": "/static/media/loader.fd79d998.gif",
+    "static/media/notification_big_win.png": "/static/media/notification_big_win.b8782a71.png",
+    "static/media/nucleo-icons.css": "/static/media/nucleo.f0b489a5.woff",
+    "static/media/pp.jpg": "/static/media/pp.93d78ac2.jpg",
+    "static/media/react-logo.png": "/static/media/react-logo.73746225.png",
+    "static/media/square-purple-1.png": "/static/media/square-purple-1.36309def.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d3cf8413.js",
+    "static/js/2.13319827.chunk.js",
+    "static/css/main.364b8679.chunk.css",
+    "static/js/main.c358900f.chunk.js"
+  ]
+}
