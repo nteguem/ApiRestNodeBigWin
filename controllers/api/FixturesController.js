@@ -6,4 +6,16 @@ const getCountryWithDate = (req, res) => {
   res.send(data);
 };
 
-module.exports = {getCountryWithDate};
+const getChampionshipWithCountry = (req, res) => {
+  let data = dataFixtures.getChampionshipCountryWithDate(req.params.date,req.params.country)
+ res.send(data);
+};
+
+
+const getFixturesMatchsWithLeague = (req, res) => {
+  let data = dataFixtures.getFixturesChampionshipWithDate(req.params.date,req.params.country,req.params.league)
+ res.send(data);
+};
+
+
+module.exports = {getCountryWithDate,getChampionshipWithCountry,getFixturesMatchsWithLeague};

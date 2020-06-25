@@ -151,4 +151,4 @@ let getFixturesChampionshipWithDate = (date,country,championship) => {
 //getChampionshipCountryWithDate('2020-06-25' , 'Ukraine');
 //getFixturesChampionshipWithDate('2020-06-24' , 'England','Premier League');
 
-module.exports.getCountryGamesWithDate = getCountryGamesWithDate;
+module.exports = {getCountryGamesWithDate,getChampionshipCountryWithDate,getFixturesChampionshipWithDate};

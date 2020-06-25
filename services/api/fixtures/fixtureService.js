@@ -63,7 +63,7 @@ let restructuredDataApi = (dataApi) => {
           fixtures.forEach(function (itemmatch) {
 
             if (itemmatch.league_id === itemleague.league_id) {
-              matchs.push({ "homeTeam": itemmatch.homeTeam, "awayTeam": itemmatch.awayTeam, "event_date": itemmatch.event_date, "stadium": itemmatch.venue, "day saison": itemmatch.round,"statuts":itemmatch.status })
+              matchs.push({ "homeTeam": itemmatch.homeTeam, "awayTeam": itemmatch.awayTeam, "event_date": itemmatch.event_date.substring(11, 16), "stadium": itemmatch.venue, "day saison": itemmatch.round,"statuts":itemmatch.status })
             }
           });
 

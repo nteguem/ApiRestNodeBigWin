@@ -9,7 +9,7 @@ const pathfixturestomorrow = './storage/json/fixtures/tomorrowFixturesApi.json';
 const pathfixturestwodayafter = './storage/json/fixtures/twoDayAfterFixturesApi.json';
 const fixturesRoutes = require('./routes/api/fixturesRoutes');
 
-app.use('/api/countrygames', fixturesRoutes);
+app.use('/api', fixturesRoutes);
 
 //app.use(express.static(`${__dirname}/build`))
 
