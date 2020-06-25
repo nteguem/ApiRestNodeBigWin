@@ -87,7 +87,6 @@ let writeFixturesDataInFiles = () => {
       console.log('Data today written to file');
     });
   })
-
   getFixtureTomorrow().then(data => {
     let datatomorrow = restructuredDataApi(data);
     fs.writeFile('./storage/json/fixtures/tomorrowFixturesApi.json', JSON.stringify(datatomorrow, null, 4), (err) => {
