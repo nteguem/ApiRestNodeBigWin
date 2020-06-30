@@ -128,17 +128,17 @@ let getChampionshipCountryWithDate = (date,country) => {
 let getFixturesChampionshipWithDate = (date,country,championship) => {
     let path;
     if (date === dates.getCurrentDate('-')) {
-        path = "../../../storage/json/fixtures/todayFixturesApi.json";
+        path = "./storage/json/fixtures/todayFixturesApi.json";
       return extractFixturesInJson(path,country,championship); 
       
     }
     else if (date === dates.getTomorrowDate('-')) {
-        path = "../../../storage/json/fixtures/tomorrowFixturesApi.json";
+        path = "./storage/json/fixtures/tomorrowFixturesApi.json";
         return extractFixturesInJson(path,country,championship); 
 
     }
     else if (date === dates.get2DayAfterDate('-')) {
-        path = "../../../storage/json/fixtures/twoDayAfterFixturesApi.json";
+        path = "./storage/json/fixtures/twoDayAfterFixturesApi.json";
         return extractFixturesInJson(path,country,championship); 
 
     }
