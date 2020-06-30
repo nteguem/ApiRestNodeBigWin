@@ -106,7 +106,6 @@ let writeFixturesDataInFiles = () => {
 }
 
 
-
 module.exports.writeFixturesDataInFiles = writeFixturesDataInFiles;
 
 
